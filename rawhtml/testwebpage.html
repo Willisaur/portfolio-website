@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://rjkilpatrick.uk/ -->
+<html lang="en-gb"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <meta name="twitter:creator" content="rjkilpatrick1">
+    <meta name="yandex-verification" content="ab1e6cab6e467868">
+
+    <meta name="theme-color" content="hsl(359.6, 59%, 54%)">
+
+    
+    <link rel="icon" type="image/x-icon" href="https://rjkilpatrick.uk/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="https://rjkilpatrick.uk/images/favicon.svg">
+    <link rel="apple-touch-icon" href="https://rjkilpatrick.uk/images/touch/apple-touch-icon.png">
+    <link rel="manifest" href="https://rjkilpatrick.uk/site.webmanifest">
+
+    <meta name="generator" content="Astro v2.9.6">
+
+    <style lang="scss">
+      /* VERY important styles go here */
+      html,
+      body {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+    </style>
+  <link rel="stylesheet" href="./testwebpage_files/index.92c928c0.css">
+<link rel="stylesheet" href="./testwebpage_files/2021-10-01-reverse-automatic-differentiation.93251de1.css">
+<link rel="stylesheet" href="./testwebpage_files/2021-10-01-reverse-automatic-differentiation.e8d6c395.css"><script type="text/javascript" src="./testwebpage_files/saved_resource" async=""></script><script type="text/javascript" src="./testwebpage_files/widgets.js.download" async=""></script><script type="text/javascript" src="./testwebpage_files/jquery.min.js.download" async=""></script><script type="text/javascript" src="./testwebpage_files/pv" async=""></script><script type="module" src="./testwebpage_files/page.f7ec53a3.js.download"></script><link rel="stylesheet" type="text/css" href="./testwebpage_files/widget.css"></head>
+  <body>
+    
+  <div id="loading-overlay" class="astro-52OM46WH active display_none">
+  <div class="loading-wrapper astro-52OM46WH">
+    <div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div><div class="wave-element astro-52OM46WH"></div>
+  </div>
+  <p class="astro-52OM46WH">Just loading, one second!</p>
+</div>
+
+
+<script type="text/javascript">
+  window.onload = async () => {
+    const overlay = document.querySelector("#loading-overlay");
+    overlay.classList.add("active");
+
+    // This is a hack to display none after the animation is run, because of
+    // poor CSS. TODO: Remove this
+    await new Promise((resolve) => setTimeout(resolve, 500)); // Hard-coded animation timer
+    overlay.classList.add("display_none");
+  };
+</script>
+  <nav class="page-navigation astro-PUX6A34N" role="navigation">
+  <div class="modal astro-PUX6A34N">
+    <ul class="modal-content astro-PUX6A34N">
+      <li class="nav-item astro-PUX6A34N">
+            <a href="https://rjkilpatrick.uk/" class="astro-PUX6A34N">Home</a>
+          </li><li class="nav-item astro-PUX6A34N">
+            <a href="https://rjkilpatrick.uk/post" class="astro-PUX6A34N">Blog</a>
+          </li><li class="nav-item astro-PUX6A34N">
+            <a href="https://rjkilpatrick.uk/about" class="astro-PUX6A34N">About</a>
+          </li><li class="nav-item astro-PUX6A34N">
+            <a href="https://rjkilpatrick.uk/contact" class="astro-PUX6A34N">Contact</a>
+          </li>
+    </ul>
+  </div>
+  <button class="toggle-container astro-PUX6A34N" aria-expanded="false" aria-controls="menu" aria-label="Main Menu">
+    <span class="hamburger astro-PUX6A34N"></span>
+  </button>
+</nav>
+
+<script type="text/javascript">
+  const toggle = document.querySelector(".toggle-container");
+  const modal = document.querySelector(".modal");
+  const icon = document.querySelector(".hamburger");
+
+  function toggleNav(event) {
+    event.preventDefault();
+
+    modal.classList.toggle("active");
+
+    // Expand
+    toggle.setAttribute(
+      "aria-expanded",
+      toggle.getAttribute("aria-expanded") == "true" ? "false" : "true"
+    );
+
+    icon.classList.toggle("active");
+  }
+
+  toggle.addEventListener("touchstart", toggleNav);
+  toggle.addEventListener("click", toggleNav);
+</script>
+  <main class="content-wrapper">
+    
+  <div class="main astro-J7PV25F6">
+    <div class="half-pane-wrapper astro-J7PV25F6">
+      <div class="half-pane grow astro-J7PV25F6">
+        <h1 class="astro-J7PV25F6">Hi, I'm John 👋</h1>
+        <h2 class="astro-J7PV25F6">
+          I'm shaping light to look through optical <mark class="astro-J7PV25F6">fibres</mark>.
+        </h2>
+        <p class="astro-J7PV25F6">
+          Why don't you check out my <a href="https://rjkilpatrick.uk/post" class="astro-J7PV25F6">blog</a>?
+        </p>
+      </div>
+      <div class="half-pane astro-J7PV25F6">
+        <img class="avatar astro-J7PV25F6" src="./testwebpage_files/rjkilpatrick.jpg" alt="Picture of John Kilpatrick">
+      </div>
+    </div>
+  </div>
+
+  </main>
+  <footer class="footer astro-SZ7XMLTE">
+  <h2 class="screen-reader astro-SZ7XMLTE">Footer</h2>
+  <div class="footer__content astro-SZ7XMLTE">
+    <div class="astro-SZ7XMLTE">
+      <p class="astro-SZ7XMLTE">
+        (c) John Kilpatrick 2023
+        <a href="https://github.com/rjkilpatrick/rjkilpatrick.uk" rel="external" class="astro-SZ7XMLTE">View source</a>
+      </p>
+    </div>
+    <div class="astro-SZ7XMLTE">
+      <nav class="astro-SZ7XMLTE">
+        <ul class="social-icons astro-SZ7XMLTE">
+          <li class="astro-SZ7XMLTE">
+            <a rel="external" aria-label="Github" href="https://github.com/rjkilpatrick" class="github astro-SZ7XMLTE">
+              <svg viewBox="0 0 24 24" class="icon astro-SZ7XMLTE" astro-icon="mdi:github"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"></path></svg>
+            </a>
+          </li>
+          <li class="astro-SZ7XMLTE">
+            <a rel="external" aria-label="Twitter" href="https://twitter.com/rjkilpatrick1" class="twitter astro-SZ7XMLTE">
+              <svg viewBox="0 0 24 24" class="icon astro-SZ7XMLTE" astro-icon="mdi:twitter"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"></path></svg>
+            </a>
+          </li>
+          <li class="astro-SZ7XMLTE">
+            <a rel="external" aria-label="Linkedin" href="https://linkedin.com/in/rjkilpatrick" class="linkedin astro-SZ7XMLTE">
+              <svg viewBox="0 0 24 24" class="icon astro-SZ7XMLTE" astro-icon="mdi:linkedin"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+  <script type="text/javascript" src="./testwebpage_files/tracker.js.download"></script>
+
+  <div id="wsg-backdrop"></div></body><style>
+@media print {
+  #simplifyJobsContainer {
+    display: none;
+  }
+}
+</style><div id="simplifyJobsContainer" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; overflow: visible; z-index: 2147483647;"><span><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://pbanhockgagggenencehbnadejlgchfc/css/styles.css"><style>
+  :host {
+    all: initial;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(203, 213, 225, 1) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(203, 213, 225, 1);
+    border-radius: 3px;
+    border: 0;
+  }
+</style><div id="simplifyJobsPortals"></div></template></span></div><script id="simplifyJobsPageScript" src="chrome-extension://pbanhockgagggenencehbnadejlgchfc/js/pageScript.bundle.js"></script></html>
