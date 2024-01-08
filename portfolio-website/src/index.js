@@ -1,14 +1,32 @@
+// Default imports
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Dependencies
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // Link pages together with "routing"
+
+// Components that run on all pages
+import './index.css';
+import Header from './components/Header/Header';
+
+// Pages
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import NoPage from './pages/NoPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Header />}> {/* Header is on all pages; the path '/' is a prefix for children paths */}
+        <Route index element={<Home />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='*' element={<NoPage />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,32 @@
+nav {
+    height: 5rem;
+    width: screen;
+    background-color: #070d1b;
+    padding: 0rem 3rem 0rem 3rem;
+
+    /* Flex box */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.Page-Links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    
+    * {
+        text-decoration: none;
+        color: var(--light-font);
+    }
+
+}
+
+
+.Page-Links :hover {
+    color: #e42b47;
+    transition: all .4s;
+}
