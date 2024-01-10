@@ -1,0 +1,32 @@
+.projects {
+    width: 55vw;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--light-font);
+    text-decoration-style: dotted;
+    text-decoration-color: var(--light-font);
+}
+
+.other-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    place-items: center;
+}
+
+.other-projects-box{
+    background-color: rgb(21, 21, 21);
+    min-width: 10rem;
+    min-height: 5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .other-projects {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

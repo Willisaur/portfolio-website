@@ -4,13 +4,14 @@
 }
 
 body {
-  margin: 0;
   font-family: ui-sans-serif,system-ui,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
   background-color: var(--dark-background);
   color: var(--light-font);
+  margin: 0;
+  text-align: center;
 }
 
 code {
