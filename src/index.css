@@ -1,6 +1,7 @@
 :root {
   --dark-background: #020817;
   --light-font: #f8fafc;
+  --box-red: #760012;
 }
 
 body {
@@ -11,7 +12,15 @@ body {
   background-color: var(--dark-background);
   color: var(--light-font);
   margin: 0;
+  padding-bottom: 3rem;
   text-align: center;
+  
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 24px;
+  }
 }
 
 code {

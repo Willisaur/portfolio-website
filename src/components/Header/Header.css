@@ -1,9 +1,9 @@
 nav {
     height: 5rem;
-    width: screen;
     background-color: #070d1b;
+    padding: 0 2rem;
     margin: 0;
-    padding: 0rem 3rem 0rem 3rem;
+    
 
     /* Flex box */
     display: flex;
@@ -20,14 +20,25 @@ nav {
     gap: 2rem;
     
     * {
+        transition: all .2s;
         text-decoration: none;
         color: var(--light-font);
     }
 
+    :hover {
+        color: #d29fb1
+    }
+    .active {
+        color: #e42b47;
+        font-weight: bold;
+    }
 }
 
-
-.Page-Links :hover {
-    color: #e42b47;
-    transition: all .4s;
+@media (max-width: 768px) {
+    nav {
+        padding: 0 .5rem;
+    }
+    .Page-Links {
+        gap: 1rem;
+    }
 }

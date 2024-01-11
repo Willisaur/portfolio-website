@@ -1,5 +1,40 @@
 .home {
-  width: 50vw;
-  margin: 0 auto;
+    width: 40%;
+    margin: 0 auto;
+   
+    p {
+        text-align: left;
+    }
+}
 
+header {
+    margin-bottom: 4rem;
+} 
+
+section {
+    margin-bottom: 3rem;
+}
+
+.skills {
+    ul {
+        text-align: left;
+        text-indent: -4em; 
+        padding-left: 5em;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.photo-selfie {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .home {
+        width: 90%;
+    }
 }

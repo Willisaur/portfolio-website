@@ -1,13 +1,12 @@
 import './Header.css';
-import { Outlet, Link } from 'react-router-dom'; // Links the pages together with "routing"
-import { NavLink } from "react-router-dom";  
+import { Outlet, NavLink } from 'react-router-dom'; // Links the pages together with "routing"
 
 
 function Header() {
   return (
     <>
       <nav>
-        <h2>Will Starling 🙂</h2>
+        <h2>Will Starling ⭐</h2>
 
         <div className='Page-Links'>
           <h3>
