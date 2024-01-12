@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
 // Dependencies
-import { BrowserRouter, Routes, Route } from "react-router-dom"; // Link pages together with "routing"
+import { HashRouter, Routes, Route } from "react-router-dom"; // Link pages together with "routing"
 
 // Components that run on all pages
 import './index.css';
@@ -18,15 +18,15 @@ import NoPage from './pages/NoPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<Header />}> {/* Header is on all pages; the path '/' is a prefix for children paths */}
         <Route index element={<Home />} />
-        <Route path='projects' element={<Projects />} />
+        <Route path='Projects' element={<Projects />} />
         <Route path='*' element={<NoPage />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -24,14 +24,13 @@ nav {
         text-decoration: none;
         color: var(--light-font);
     }
-
+    .active {
+        color: #e42b47;
+    }
     :hover {
         color: #d29fb1
     }
-    .active {
-        color: #e42b47;
-        font-weight: bold;
-    }
+    
 }
 
 @media (max-width: 768px) {
