@@ -2,29 +2,17 @@
     width: 40%;
     margin: 0 auto;
    
-    p {
-        text-align: left;
-    }
+    text-align: left;
+
 }
 
 header {
     margin-bottom: 4rem;
+    text-align: center;
 } 
 
 section {
     margin-bottom: 3rem;
-}
-
-.skills {
-    ul {
-        text-align: left;
-        text-indent: -4em; 
-        padding-left: 5em;
-    }
-}
-
-ul {
-    list-style-type: none;
 }
 
 .photo-selfie {

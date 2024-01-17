@@ -69,14 +69,10 @@ const projects = [
 function Projects() {
   return (
     <div className="projects">
-      <h1><u>Projects</u></h1>
-      <p>See what I'm capable of.</p>
-      <br />
-      
       <h1>Main Projects</h1>
       <div className='main-projects'>
         <div className="main-projects-item">
-          <h2><a href="https://willisaur.github.io">Portfolio Website</a></h2>
+          <h2><a href="https://willstarling.com/#/">Portfolio Website</a></h2>
           <p>
             A site to showcase my projects and skills. I learned React, Git, and more advanced CSS to make this. You're on the site right now.
           </p>
@@ -109,7 +105,7 @@ function Projects() {
       </div>
 
       <div className='other-projects'>
-        <h1><u>Other Projects</u></h1>
+        <h1>Other Projects</h1>
         {/* <div className="other-projects-item"></div> */}
         <p>
           Coming soon... 
