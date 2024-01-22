@@ -1,0 +1,21 @@
+footer {
+    background-color: var(--footer-background);  
+    padding: 2rem 0 2rem;
+    margin-top: 4rem;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 1rem;
+    padding-bottom: 1rem;
+
+    > a img {
+        height: 40px;
+    }
+    > a img:hover {
+        opacity: .8;
+    }
+}

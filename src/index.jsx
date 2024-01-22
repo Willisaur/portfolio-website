@@ -9,6 +9,7 @@ import { HashRouter, Routes, Route } from "react-router-dom"; // Link pages toge
 // Components that run on all pages
 import './index.css';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 // Pages
 import Home from './pages/Home';
@@ -19,13 +20,15 @@ import NoPage from './pages/NoPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
+    <Header /> {/* on all pages */}
     <Routes>
-      <Route path='/' element={<Header />}> {/* Header is on all pages; the path '/' is a prefix for children paths */}
+      <Route path='/'> {/* the path '/' is a prefix for children paths */}
         <Route index element={<Home />} />
         <Route path='Projects' element={<Projects />} />
         <Route path='*' element={<NoPage />} />
       </Route>
     </Routes>
+    <Footer /> {/* on all pages */}
   </HashRouter>
 );
 

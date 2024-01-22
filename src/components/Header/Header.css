@@ -1,16 +1,15 @@
 nav {
     height: 5rem;
-    background-color: #070d1b;
-    padding: 0 2rem;
-    margin: 0;
+    background-color: var(--header-background);
+    padding: 0 2rem 0rem;
+    margin: 0 0 2rem;
     
 
     /* Flex box */
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
 
 .Page-Links {
@@ -19,7 +18,7 @@ nav {
     flex-direction: row;
     gap: 2rem;
     
-    * {
+    > h3 * {
         transition: all .2s;
         text-decoration: none;
         color: var(--light-font);

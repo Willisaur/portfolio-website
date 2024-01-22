@@ -69,7 +69,7 @@ const projects = [
 function Projects() {
   return (
     <div className="projects">
-      <h1>Main Projects</h1>
+      <h1>Main Projects</h1><br />
       <div className='main-projects'>
         <div className="main-projects-item">
           <h2><a href="https://willstarling.com/#/">Portfolio Website</a></h2>

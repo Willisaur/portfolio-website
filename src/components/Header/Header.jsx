@@ -1,5 +1,5 @@
 import './Header.css';
-import { Outlet, NavLink } from 'react-router-dom'; // Links the pages together with "routing"
+import { NavLink } from 'react-router-dom'; // Links the pages together with "routing"
 
 
 function Header() {
@@ -17,8 +17,6 @@ function Header() {
           </h3>
         </div>
       </nav>
-
-      <Outlet /> {/* Outlet is where the children of the parent route are rendered */}
     </>
   );
 }
