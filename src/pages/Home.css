@@ -21,6 +21,10 @@ section {
     border-radius: 1rem;
 }
 
+ul {
+    padding-left: 2rem;
+}
+
 @media (max-width: 768px) {
     .home {
         width: 90%;
