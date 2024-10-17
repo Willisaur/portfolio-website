@@ -80,7 +80,7 @@ function Projects() {
         </div>
         
         <div className="main-projects-item">
-          <h2><a href="https://bit.ly/L2G-CWS">LeetCode to GitHub Chrome Extension</a></h2>
+          <h2><a href="https://bit.ly/L2G-CWS-v2">LeetCode to GitHub Chrome Extension</a></h2>
           <p>
             A Chrome extension that automates uploading LeetCode submissions to GitHub. I learned more about JavaScript, async/await, version control, agile software development, and API calls/web requests.
           </p>
